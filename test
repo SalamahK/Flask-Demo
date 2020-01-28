@@ -1,0 +1,5 @@
+from flask import Flask
+app = FLASK(__name__)
+@app.route('/')
+def home_page():
+    return 'Welcome, User!'
